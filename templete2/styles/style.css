@@ -1,0 +1,16 @@
+.body-container {
+	background-color: pink;
+}
+
+.row {
+	border: 1px solid white;
+}
+
+.row > * {
+	border: 1px solid blue;
+}
+
+img {
+	border: 10px dashed black;
+	width: 100%;
+}

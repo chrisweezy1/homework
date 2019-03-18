@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+  	<h1>Sign up for the spanish class 101</h1>
+	<form action="/newsletter/signup" method="post">
+	  <div>
+	  	<label for="Nombre">Full name:</label>
+	    <input name="name" type="text" placeholder="Name">
+	  </div>
+	  <div>
+	  	<label for="Email">Email</label>
+	    <input name="email" type="text" placeholder="Email Address">
+	  </div>
+	  <div>
+	  	<label for="Password">Password:</label>
+	  	<input type="password" name="contrasema" placeholder="New password">
+	  </div>
+	  <div>
+	  	<input type="radio" name="gender"> Female
+	  	<input type="radio" name="gender"> Male
+	  	<input type="radio" name="gender"> Transgender
+	  	<input type="radio" name="gender"> Other
+	  </div>
+	  <div>
+	  	<input type="checkbox" name="country"> Jamiaca
+	  	<input type="checkbox" name="country"> USA
+	  	<input type="checkbox" name="country"> Spain
+	  	<input type="checkbox" name="country"> Other
+	  </div>
+	  <div>
+	    <label for="source">How did you hear about us?</label>
+	    <select id="source" name="source">
+	      <option value="search">Found through a group</option>
+	      <option value="friend">Referred by a friend</option>
+	      <option value="sponsor-company">Through a NGO</option>
+	      <option value="sponsor-company">Other</option>
+	    </select>
+	  </div>
+	  <input type="submit" value="Sign up now!">
+	</form>
+</body>
